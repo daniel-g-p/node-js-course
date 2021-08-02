@@ -1,0 +1,29 @@
+1. NODE JS BASICS
+    - Node JS is a JavaScript Framework
+    - Node JS is based on the V8 engine by Chrome
+    - Installing Node JS: https://nodejs.org/en/
+    - Checking Node version: node -v
+    - Starting the Node REPL: node
+    - Executing a Node JS file in the Node REPL: .load [FILENAME].js
+    - Purposes of Node JS:
+        - Input validation
+        - User authentication and authorization
+        - Database access
+    - REPL: Read, Evaluate, Print, Loop
+    
+2. FILE SYSTEM
+    - Requiring the file system: const fs = require("fs")
+    - Creating a file: fs.writeFileSync([FILE NAME], [FILE-CONTENT])
+    - Deleting a file: fs.unlinkSync([FILE NAME])
+
+3. JAVASCRIPT BASICS
+    - Creating an array with the invidual items of another array: const NewArray = [...originalArray]
+    - Creating an array from individual items: function f(...arrayName)
+    - Destructuring objects: const { property1, property2 } = objects
+    . Destructuirng arrays: const [ item1, item2 ] = array
+
+4. NODE JS SERVERS
+    - Core modules: http, https, fs, path, os
+    - HTTP requests and responses always include headers that pass metadata (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+    - res.end() must always be the last call on res
+    - Buffers are responsible for putting data streams to a halt when necessary
