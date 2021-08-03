@@ -32,4 +32,6 @@
     - Sync functions
     - Node JS is heavily based on asynchronous code execution
     - The EVENT LOOP handles fast-executing callbacks, the WORKER POOL is reponsible for memory-heavy tasks that take longer
-    - 
+
+5. ERRORS
+    - Syntax errors

@@ -44,7 +44,6 @@ const routeHandler = (req, res) => {
     if (url === "/register") {
         const body = [];
         req.on("data", data => {
-            console.log("DATA: ", data);
             body.push(data);
         });
         return req.on("close", () => {
