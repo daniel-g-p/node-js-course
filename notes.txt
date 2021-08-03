@@ -27,3 +27,9 @@
     - HTTP requests and responses always include headers that pass metadata (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
     - res.end() must always be the last call on res
     - Buffers are responsible for putting data streams to a halt when necessary
+    - Event listeners will keep running after a response is sent
+    - req.on(EVENT) sets up asynchronous code and shouldn't include hanges to the http response
+    - Sync functions
+    - Node JS is heavily based on asynchronous code execution
+    - The EVENT LOOP handles fast-executing callbacks, the WORKER POOL is reponsible for memory-heavy tasks that take longer
+    - 
